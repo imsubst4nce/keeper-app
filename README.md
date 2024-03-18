@@ -1,1 +1,1 @@
-** Simple note keeping app made with Reactjs during my training **
+**Simple note keeping app made with Reactjs during my training**
