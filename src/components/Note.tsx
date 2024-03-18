@@ -5,7 +5,7 @@ interface noteTypes {
     content: string;
 }
 
-function createNote({title,content}:noteTypes)   {
+function createNote({title,content}: noteTypes)   {
     return (
         <div className='note'>
             <h1>
@@ -18,8 +18,7 @@ function createNote({title,content}:noteTypes)   {
     )
 }
 
-export default function Note({title,content}:noteTypes)    {
-    
+export default function Note({title,content}: noteTypes)    {
     return (
         createNote({title,content})
     );
